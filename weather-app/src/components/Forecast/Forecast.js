@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Forecast = () => {
+
+    let [responseObj, setResponseObj] = useState({});
 
     // function with fetch
     function getForecast() {
@@ -10,9 +12,12 @@ const Forecast = () => {
                 "x-rapidapi-host": "community-open-weather-map.p.rapidapi.com"
             }
         })
-        .then(response => {
-            console.log(response);
-        })
+
+        // response to jsonObject
+       .then(response => response.json())
+       .then(response => {
+           setResponseObj(response)
+       })
         .catch(err => {
             console.error(err);
         });
