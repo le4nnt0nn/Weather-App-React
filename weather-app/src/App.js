@@ -7,6 +7,12 @@ function App() {
       <header className="App-header">
         <h1>Weather App</h1>
       </header>
+      <main>
+        {/* weather component */}
+      </main>
+      <footer>
+        Created By Le4nnt0nn
+      </footer>
     </div>
   );
 }
