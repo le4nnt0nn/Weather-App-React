@@ -29,7 +29,9 @@ const Forecast = () => {
     // brackets allows mix JavaScript with HTML
     <div>
       <h2>Find Current Weather Conditions Right Now</h2>
-      <div>{JSON.stringify(responseObj)}</div>
+      <div>
+          {JSON.stringify(responseObj)}
+     </div>
       <button onClick={getForecast}>Get Forecast</button>
     </div>
   );
