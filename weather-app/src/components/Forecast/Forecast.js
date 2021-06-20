@@ -17,10 +17,10 @@ const Forecast = () => {
       }
     )
     // response to jsonObject
-      .then((response) => response.json())
-      .then((response) => {
+    .then(response => response.json())
+    .then(response => {
         setResponseObj(response)
-      })
+    })
       .catch((err) => {
         console.error(err);
       });
