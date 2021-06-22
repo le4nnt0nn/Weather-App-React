@@ -29,6 +29,9 @@ const Forecast = () => {
           {JSON.stringify(responseObj)}
      </div>
       <button onClick={getForecast}>Get Forecast</button>
+      <Conditions
+        responseObj={responseObj}
+      />
     </div>
   );
 };
