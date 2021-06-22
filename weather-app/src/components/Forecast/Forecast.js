@@ -10,16 +10,16 @@ const Forecast = () => {
 	"headers": {
 		"x-rapidapi-key": "5d42d2897emsh6345ce50d7b7adcp1ca28cjsnee0a752867ba",
 		"x-rapidapi-host": "community-open-weather-map.p.rapidapi.com"
-	}
-})
-.then(response => response.json())
-.then(response => {
+	  }
+  })
+  .then(response => response.json())
+  .then(response => {
     setResponseObj(response)
-})
-.catch(err => {
-	console.error(err);
-});
-  }
+  })
+  .catch(err => {
+	  console.error(err);
+  });
+}
   return (
     // brackets allows mix JavaScript with HTML
     <div>
