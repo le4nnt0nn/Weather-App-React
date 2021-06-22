@@ -5,7 +5,7 @@ const Forecast = () => {
 
   // function with fetch
   function getForecast() {
-    fetch("https://community-open-weather-map.p.rapidapi.com/weather?q=madrid%2Ces&lat=0&lon=0&callback=test&id=2172797&lang=null&units=%22metric%22%20or%20%22imperial%22&mode=xml%2C%20html", {
+    fetch("https://community-open-weather-map.p.rapidapi.com/weather?q=madrid", {
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-key": "5d42d2897emsh6345ce50d7b7adcp1ca28cjsnee0a752867ba",
