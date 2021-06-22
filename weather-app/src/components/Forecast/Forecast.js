@@ -11,7 +11,11 @@ const Forecast = () => {
   const uriEncodedCity = encodeURIComponent(city);
 
   // function with fetch
-  function getForecast() {
+  function getForecast(e) {
+
+    // avoids lose data
+    e.preventDefault();
+
     fetch(`https://community-open-weather-map.p.rapidapi.com/weather?units=${unit}&q=${uriEncodedCity}`, {
 	"method": "GET",
 	"headers": {
