@@ -1,0 +1,18 @@
+.textInput {
+    font-size: large;
+    border: 1px solid #EEEEEE;
+    padding: 5px;
+    border-radius: 3px;
+    display: block;
+    margin: 5px auto;
+}
+
+.textInput:hover {
+    transform: scale(1.05);
+}
+
+.textInput:focus {
+    outline: none;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px rgb(50, 100, 153);
+}
