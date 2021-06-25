@@ -1,9 +1,10 @@
 import React from 'react';
+import classes from "./Conditions.module.css";
 
 const Conditions = (props) => {
     //if response code is 200, then return city, temp and weather. If not, return null
    return (
-       <div>
+       <div className={classes.Wrapper}>
            {props.responseObj.cod === 200 ?
                <div>
                    <p><strong>{props.responseObj.name}</strong></p>
