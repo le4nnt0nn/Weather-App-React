@@ -34,6 +34,9 @@ const Forecast = () => {
   })
   .then(response => response.json())
   .then(response => {
+    if(response.cod !== 200) {
+      throw new Error()
+    }
     setResponseObj(response)
   })
   .catch(err => {
