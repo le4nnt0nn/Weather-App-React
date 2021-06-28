@@ -44,9 +44,12 @@ const Forecast = () => {
     if(response.cod !== 200) {
       throw new Error()
     }
-    setResponseObj(response)
+    setResponseObj(response);
+    setLoading(false);
   })
   .catch(err => {
+    setError(true);
+    setLoading(false);
 	  console.error(err);
   });
 }
