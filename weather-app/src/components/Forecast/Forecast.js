@@ -92,6 +92,8 @@ const Forecast = () => {
             </form>
       <Conditions
         responseObj={responseObj}
+        error={error}
+        loading={loading}
       />
     </div>
   );
