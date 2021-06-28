@@ -21,16 +21,18 @@ const Forecast = () => {
     e.preventDefault();
 
 
+    // city.length is 0, return error
+    if(city.length === 0) {
+      return setError(true);
+    }
+
     // waiting for new data
     setError(false);
     setResponseObj({});
 
     setLoading(true);
 
-    // city.length is 0, return error
-    if(city.length === 0) {
-      return setError(true);
-    }
+    
 
     fetch(`https://community-open-weather-map.p.rapidapi.com/weather?units=${unit}&q=${uriEncodedCity}`, {
 	"method": "GET",
