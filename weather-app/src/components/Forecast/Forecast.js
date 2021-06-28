@@ -52,7 +52,7 @@ const Forecast = () => {
   .catch(err => {
     setError(true);
     setLoading(false);
-	  console.error(err);
+	  console.error(err.message);
   });
 }
   return (
