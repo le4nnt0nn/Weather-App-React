@@ -20,6 +20,13 @@ const Forecast = () => {
     // avoids lose data
     e.preventDefault();
 
+
+    // waiting for new data
+    setError(false);
+    setResponseObj({});
+
+    setLoading(true);
+
     // city.length is 0, return error
     if(city.length === 0) {
       return setError(true);
