@@ -20,6 +20,11 @@ const Forecast = () => {
     // avoids lose data
     e.preventDefault();
 
+    // city.length is 0, return error
+    if(city.length === 0) {
+      return setError(true);
+    }
+
     fetch(`https://community-open-weather-map.p.rapidapi.com/weather?units=${unit}&q=${uriEncodedCity}`, {
 	"method": "GET",
 	"headers": {
