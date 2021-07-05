@@ -9,7 +9,7 @@
     <h5>Check it in 🔍</h5>
     <h3>
         <span> | </span>
-         <a href="https://codesandbox.io/s/github/le4nnt0nn/first-react-project">
+         <a href="https://codesandbox.io/s/le4nnt0nnweather-app-react-terso">
             CodeSandBox
         </a>
         <span> | </span>
