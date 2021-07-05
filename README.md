@@ -47,4 +47,10 @@ Used [React](https://es.reactjs.org/ "React Documentation") and [HTML](https://w
  
 ### 📷 Templates
 
-![TodoApp](./docs/todoApp.PNG "TodoApp View")
+#### Example ✔️
+
+![SearchCity](./docs/overview1.PNG "Search City View")
+
+#### Example (Error) ❌
+
+![FailedCity](./docs/overview2.PNG "Failed City View")
