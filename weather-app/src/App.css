@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: darkcyan;
+  background-image: url("./images/headerImage.png");
   padding: 25px;
   min-height: 300px;
   display: flex;
