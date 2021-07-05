@@ -1,6 +1,6 @@
 ## Weather App
 
- > A weather app in Reat.
+ > A weather app in React.
 
  ***
 
