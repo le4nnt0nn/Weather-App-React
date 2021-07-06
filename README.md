@@ -1,6 +1,6 @@
 ## Weather App
 
- > A weather app in Reat.
+ > A weather app in React.
 
  ***
 
@@ -9,7 +9,7 @@
     <h5>Check it in 🔍</h5>
     <h3>
         <span> | </span>
-         <a href="https://codesandbox.io/s/github/le4nnt0nn/first-react-project">
+         <a href="https://codesandbox.io/s/le4nnt0nnweather-app-react-terso">
             CodeSandBox
         </a>
         <span> | </span>
@@ -43,8 +43,15 @@ Used [React](https://es.reactjs.org/ "React Documentation") and [HTML](https://w
 ### 📋 Features
 
 * You can check the weather of a city writting the city name
-* If you put a non existing city, an error appears. 
+* If you put a non existing city, an error appears
+* You can choose between Fahrenheit or Celcius 
  
 ### 📷 Templates
 
-![TodoApp](./docs/todoApp.PNG "TodoApp View")
+#### Example ✔️
+
+![SearchCity](./docs/overview1.PNG "Search City View")
+
+#### Example (Error) ❌
+
+![FailedCity](./docs/overview2.PNG "Failed City View")
